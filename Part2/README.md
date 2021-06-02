@@ -1,4 +1,7 @@
 # Problem Description and Instructions on Running the Project 
+
+**5/28/21 Microsoft Presentation Slides**: https://docs.google.com/presentation/d/19Io3p6UvTFMbvmslHd7P5Hyk71Nh6iOgTnWaljNaRrs/edit?usp=sharing
+
 Welcome to our Project! We are so glad that you are here.
 <div align="center"> 
 <img src="https://user-images.githubusercontent.com/42923017/114302152-ce7c7680-9a95-11eb-97f8-e6a17c7144ea.png" alt="Richard's Battleship" width="300">
