@@ -26,7 +26,7 @@ namespace QCHack.Task3 {
     operation Task3_ValidTriangle (inputs : Qubit[], output : Qubit) : Unit is Adj+Ctl {
         use same01 = Qubit();
         use same12 = Qubit();
-        use same20 = Qubit();
+        // use same20 = Qubit();
         within {
             CX(inputs[0], same01);
             CX(inputs[1], same01);
@@ -34,8 +34,8 @@ namespace QCHack.Task3 {
             CX(inputs[1], same12);
             CX(inputs[2], same12);
 
-            CX(inputs[2], same20);
-            CX(inputs[0], same20);
+            // CX(inputs[2], same20);
+            // CX(inputs[0], same20);
 
             X(same01);
             X(same12);
