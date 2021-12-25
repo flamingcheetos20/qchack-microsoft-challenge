@@ -143,7 +143,7 @@ namespace QCHack.Task4 {
                     // insert triangle edge indices if triangle exists
                     if i >= 0 and j >= 0 and k >= 0 {
                         set triangles w/= triN <- (i, j, k);
-                        set triN = triN + 1;
+                        set triN += 1;
                     } 
                 }
             }
